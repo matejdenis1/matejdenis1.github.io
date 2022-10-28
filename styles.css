@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    --color: rgb(199, 139, 70);
+    --color: #6D5022;
     scroll-behavior: smooth;
 }
 body{
@@ -175,4 +175,7 @@ ul li:hover{
 }
 footer p{
     text-align: center;
+}
+label{
+    display: none;
 }

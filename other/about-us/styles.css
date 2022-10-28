@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    --color: rgb(199, 139, 70);
+    --color: #6D5022;
 }
 body{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -154,5 +154,8 @@ text-align: center;
     position: absolute;
     right: 0;
     bottom: 0;
+}
+label{
+    display: none;
 }
 
