@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychologické služby HK</title>
+    <link rel="stylesheet" href="/other/about-service/styles.css">
+    <link rel="stylesheet" href="/other/about-service/responsive.css">
+</head>
+<body>
+    <header> 
+<nav>
+    <ul>
+        <li><a href="/index.html">Domů</a></li>
+            <li><a href="/other/contacts/contacts.html">Kontakty</a></li>
+            <li><a href="/other/terms/terms.html">Termíny</a></li>
+            <li><a href="/other/about-us/about-us.html">O nás</a></li>
+            <li><a href="/other/about-service/about-service.html">O službě</a></li>
+    </ul>
+</nav>
+</header>
+<main>
+    <div class="headline">
+        <h1>O službě</h1>
+        
+    </div>
+    <section class="main-content">
+        <p>Jako poradenské služby se staráme o to, aby naši klienti a zákazníci u nás hledali pomoct ve svých životech. Jsme tady od toho abychom jste nám sdělili vaše problémy jak v osobním životě, tak i v životě pracovním. Snažíme se vám pomoct skrze osobní sezení, která probíhají v našim relaxačních místnostech, které jsou navrženy pro to, abyste se v nich cítili co nejklidněji a nevadilo vám se nám svěřit s vašimi trápeními. </p>
+        <div class="text">
+        <p><strong>Telefonní linka:</strong> Naši zaměstnanci mají několik specializovaných telefonních linek, které jsou specificky dělané na různé druhy problémů. Např. Problémy v práci, osobní problémy, vztahové problémy, dospívající problémy atd. Tyto linky jsou otevřeny od pracovní doby, která začíná od 8:00 do 18:00. Máme připravené i nouzové linky, které jsou přístupné 24/7. Na tyto linky se můžete dovolat vždy a jsou připraveny na urgentní telefonáty v případě nutnosti.</p>
+        <p><strong>Online schůzky:</strong> Online schůzky probíhají skrze počítačové programy pro internetovou komunikaci jako jsou Microsoft Teams, Skype, Zoom. Tyto schůzky mají dané časy, které jsou uvedeny na webu, v oddělení „Termíny“ nebo po případné domluvě je možné vytvořit osobní termíny.</p>
+        <p><strong>Osobní schůzky:</strong> Osobní schůzky probíhají v našim místnostech, které jsou vybaveny pohodlným nábytkem, zdi jsou vymalované ve stylu klidných barev anebo jsou potaženy tapetami přírody a klidného prostranství. </p>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer-navbar">
+        <div><a href="index.html">Domů</a></div>
+        <div><a href="/other/contacts/contacts.html">Kontakty</a></div>
+        <div><a href="/other/terms/terms.html">Termíny</a></div>
+        <div><a href="/other/about-us/about-us.html">O nás</a></div>
+        <div><a href="/other/about-service/about-service.html">O službě</a></div>
+    </div>
+<div class="email-form">
+    <form onsubmit="myFunction()">
+        <p>Chcete abychom Vás kontaktovali s novinkami?</p>
+        <button>Odeslat</button>
+        <input type="email" placeholder="Email" required>
+    </form>
+</div>
+<p>Tento web slouží jako zápočtový projekt. </p>
+<p id="date"></p>
+<p class="copyright">Copyright@2022  Všechna práva vyhrazena.</p>
+</footer>
+</body>
+<script>
+    function myFunction() {
+    alert("Email byl úspěšně poslán ke spracování");
+}
+    let text = document.lastModified;
+    document.getElementById("date").innerHTML = "Poslední úprava byla provedena " + text;
+</script>
+</html>

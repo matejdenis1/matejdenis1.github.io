@@ -1,0 +1,72 @@
+/* Pro tablety */
+@media screen and (max-width: 770px){
+    body{
+        background: rgb(184,81,52);
+        background: linear-gradient(90deg, rgba(184,81,52,1) 0%, rgba(237,195,169,1) 100%);
+    }
+    ul li{
+        display: block;
+        margin: 0;
+        border-radius: 0;
+        text-align: center;
+        border: 1px solid rgb(184,81,52);
+    } 
+    footer{
+        position: relative;
+    }
+    .footer-navbar{
+        padding-left: 0;
+    }
+    .email-form{
+        margin-top: 0;
+    }
+    .email-form p{
+        padding-right: 0;
+    }
+    .email-form form button{
+        margin-right: 0;
+    }
+    #date{
+        position: absolute;
+        right: 0;
+        bottom: 15%;
+    }
+
+}
+/* Pro mobily */
+@media screen and (max-width: 505px){
+    .footer-navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        height: auto;
+        float: none;
+        padding-bottom: 1em;
+    }
+    .email-form p{
+        text-align: center;
+    }
+    .email-form form input{
+        float: left;
+    }
+    .email-form form button{
+        float: none;
+    }
+    #date{
+        position: static;
+        text-align: center;
+    }
+    .copyright{
+        position: static;
+        text-align: center;
+    }
+    .email-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+

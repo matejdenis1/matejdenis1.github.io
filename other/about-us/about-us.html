@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychologické služby HK</title>
+    <link rel="stylesheet" href="/other/about-us/styles.css">
+    <link rel="stylesheet" href="/other/about-us/responsive.css">
+</head>
+<body>
+    <header> 
+<nav>
+    <ul>
+        <li><a href="/index.html">Domů</a></li>
+            <li><a href="/other/contacts/contacts.html">Kontakty</a></li>
+            <li><a href="/other/terms/terms.html">Termíny</a></li>
+            <li><a href="/other/about-us/about-us.html">O nás</a></li>
+            <li><a href="/other/about-service/about-service.html">O službě</a></li>
+    </ul>
+</nav>
+</header>
+<main>
+    <div class="headline">
+        <h1>O nás</h1>
+    </div>
+    <section class="main-content">
+        <p>Jsme psychologické služby, které se snažíme pomáhat našim klientům s mentálními problémy. Mezi naše služby se řadí telefonické služby, online schůzky a osobní sezení. Náš tým se skládá z terapeutů, kteří jsou vyučení z psychologických vysokých škol a X letou praxí. Naši pracovníci jsou specialisti na typ problému, ke kterému jsou přiřazeni. Takže vždy když mluvíte s osobou na určitý problém, hnedka víte, že mluvíte s profesionálem. </p>
+        <div class="gallery">
+            <a target="_blank" href="/images/galerie/Dominik_Kral.jpg">
+              <img src="/images/galerie/Dominik_Kral.jpg" alt="Dominik_Kral" width="300" height="200">
+            </a>
+            <div class="desc">
+                <p><strong>Jméno:</strong> Dominik Král</p>
+                <p><strong>Zaměření:</strong> Sociální psycholog</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="/images/galerie/Pavel_Novak.jpg">
+              <img src="/images/galerie/Pavel_Novak.jpg"" alt="Pavel_Novak" width="300" height="200">
+            </a>
+            <div class="desc">
+                <p><strong>Jméno:</strong> Dominik Král</p>
+                <p><strong>Zaměření:</strong> Vývojová psychologie</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="/images/galerie/Petra_Horka.jpg">
+              <img src="/images/galerie/Petra_Horka.jpg" alt="Petra_Horka" width="300" height="200">
+            </a>
+            <div class="desc">
+                <p><strong>Jméno:</strong> Petra Horká</p>
+                <p><strong>Zaměření:</strong> Vztahová poradkyně</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="/images/galerie/Karolina_Volna.jpg">
+              <img src="/images/galerie/Karolina_Volna.jpg" alt="Karolina_Volna" width="300" height="200">
+            </a>
+            <div class="desc">
+                <p><strong>Jméno:</strong> Petra Horká</p>
+                <p><strong>Zaměření:</strong> Obecný psycholog</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="/images/galerie/telecom1.jpg">
+              <img src="/images/galerie/telecom1.jpg" alt="telecom1" width="300" height="200">
+            </a>
+            <div class="desc">
+                <p><strong>Jméno:</strong> Alena Pražáková</p>
+                <p><strong>Zaměření:</strong> Telekomunikace</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="/images/galerie/telecom2.jpg">
+              <img src="/images/galerie/telecom2.jpg" alt="telecom2" width="300" height="200">
+            </a>
+            <div class="desc">
+                <p><strong>Jméno:</strong> Jana Novotná</p>
+                <p><strong>Zaměření:</strong> Telekomunikace</p>
+            </div>
+        </div>
+    </section>
+    <div class="sources">
+        <a href="/sources/sources.html">Zdroje k obrázkům</a>
+    </div>
+</main>
+<footer>
+    <div class="footer-navbar">
+        <div><a href="index.html">Domů</a></div>
+        <div><a href="/other/contacts/contacts.html">Kontakty</a></div>
+        <div><a href="/other/terms/terms.html">Termíny</a></div>
+        <div><a href="/other/about-us/about-us.html">O nás</a></div>
+        <div><a href="/other/about-service/about-service.html">O službě</a></div>
+    </div>
+<div class="email-form">
+    <form onsubmit="myFunction()">
+        <p>Chcete abychom Vás kontaktovali s novinkami?</p>
+        <button>Odeslat</button>
+        <input type="email" placeholder="Email" required>
+    </form>
+</div>
+<p>Tento web slouží jako zápočtový projekt. </p>
+<p id="date"></p>
+<p class="copyright">Copyright@2022  Všechna práva vyhrazena. </p>
+</footer>
+</body>
+<script>
+    function myFunction() {
+    alert("Email byl úspěšně poslán ke spracování");
+}
+    let text = document.lastModified;
+    document.getElementById("date").innerHTML = "Poslední úprava byla provedena " + text;
+</script>
+</html>

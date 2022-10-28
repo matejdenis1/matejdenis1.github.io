@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychologické služby HK</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./responsive.css">
+    
+</head>
+<body>
+    <header>
+<nav>
+    <ul>
+        <li><a href="/index.html">Domů</a></li>
+            <li><a href="/other/contacts/contacts.html">Kontakty</a></li>
+            <li><a href="/other/terms/terms.html">Termíny</a></li>
+            <li><a href="/other/about-us/about-us.html">O nás</a></li>
+            <li><a href="/other/about-service/about-service.html">O službě</a></li>
+    </ul>
+</nav>
+<div class="headline">
+    <h1>Psychologické služby HK</h1>
+</div>
+</header>
+<main>
+    <section class="main-content">
+        <h2></h2>
+        <div class="inner-content"></div>
+    </section>
+</main>
+<footer>
+    <div class="footer-navbar">
+        <div><a href="index.html">Domů</a></div>
+        <div><a href="/other/contacts/contacts.html">Kontakty</a></div>
+        <div><a href="/other/terms/terms.html">Termíny</a></div>
+        <div><a href="/other/about-us/about-us.html">O nás</a></div>
+        <div><a href="/other/about-service/about-service.html">O službě</a></div>
+    </div>
+<div class="email-form">
+    <form onsubmit="myFunction()">
+        <p>Chcete abychom Vás kontaktovali s novinkami?</p>
+        <button>Odeslat</button>
+        <input type="email" placeholder="Email" required>
+    </form>
+</div>
+<p>Tento web slouží jako zápočtový projekt. </p>
+<p id="date"></p>
+<p class="copyright">Copyright@2022  Všechna práva vyhrazena.</p>
+</footer>
+
+<script>
+    let text = document.lastModified;
+    document.getElementById("date").innerHTML = "Poslední úprava byla provedena " + text;
+    function myFunction() {
+    alert("Email byl úspěšně poslán ke spracování");
+    }
+</script>
+
+</body>
+</html>
