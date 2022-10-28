@@ -7,11 +7,6 @@
 }
 /* Pro tablety */
 @media screen and (max-width: 770px){
-
-.meeting{
-    display: block;
-    columns: 1;
-}
     ul li{
         display: block;
         margin: 0;

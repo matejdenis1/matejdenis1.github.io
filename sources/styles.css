@@ -10,7 +10,6 @@ background: linear-gradient(90deg, rgba(184,81,52,1) 0%, rgba(237,195,169,1) 100
 }
 nav{
     padding-top: 2em;
-    position: fixed;
 }
 ul li{ 
     display: inline;
@@ -81,6 +80,7 @@ footer{
     font-size: 12pt;
     text-align: center;
     width: 200px;
+    border: white;
     height: 50px;
     background-color: white;
     border-right: 2px solid black;
@@ -90,6 +90,7 @@ footer{
     cursor: pointer;
     float: right;
     font-size: 12pt;
+    border: white;
     text-align: center;
     width: 200px;
     height: 50px;
@@ -109,58 +110,11 @@ h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 50pt;
 }
-h2{
-    font-size: 30pt;
-    text-align: center;
-    color: white;
-    padding: 0 10px 10px 10px;
-    text-decoration: underline;
-}
 .headline{
 display: flex;
 align-items: center;
 justify-content: center;
-height: 20vh;
-}
-.meeting{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.meeting table {
-    font-size: 20pt;
-    padding: 10px;
-    margin: auto;
-}
-.meeting th, td {
-    text-align: center;
-    padding: 8px;
-}
-.meeting tr:nth-child(even){
-    background-color: #ecc7a7;
-} 
-.meeting th {
-    background-color: #92633c;
-    color: white;
-}         
-.telecom{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.telecom table {
-    font-size: 20pt;
-    padding: 10px;
-    margin: auto;
-}
-.telecom td {
-    text-align: center;
-    padding: 8px;
-    background-color: #ecc7a7;
-}
-.telecom tr td:first-child{
-    background-color: #92633c;
-    color: white;
+height: 40vh;
 }
 #date{
     text-align: center;
@@ -168,12 +122,13 @@ height: 20vh;
 footer p{
     text-align: center;
 }
-div a{
+main div a{
     padding: 1em;
     text-align: center;
     text-decoration: none;
     display: block;
     border-bottom: 1px solid black;
-}     
+}
+
             
             

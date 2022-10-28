@@ -168,6 +168,19 @@ height: 20vh;
 }
 footer p{
     text-align: center;
-}          
+}  
+main p{
+    font-size: 20pt;
+    text-align: center;
+    margin: 1em;
+}
+main a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}      
+main a:hover{
+    opacity: 1;
+}
             
             
