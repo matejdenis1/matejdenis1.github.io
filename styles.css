@@ -119,6 +119,7 @@ padding: 10px;
     text-decoration: none;
     color: white;
     opacity: 0.8;
+    
 }.inner-content a:hover{
     opacity: 1;
 }

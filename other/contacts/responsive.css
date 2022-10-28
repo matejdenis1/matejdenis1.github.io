@@ -4,11 +4,15 @@
     .main-content{
         display: block;
         columns: auto;
+        
     }
     .inner-content{
         display: block;
-        text-align: center;
+        
         margin-left: 0;
+    }
+    .inner-content p{
+        text-align: center;
     }
     .inner-content > div{
         margin-top: 50px;
