@@ -1,9 +1,17 @@
+@media screen and (max-width: 1100px)
+{
+    footer{
+        position: relative;
+        height: auto;
+    }
+    main{
+        height: auto;
+    }
+}
 /* Pro tablety */
 @media screen and (max-width: 770px){
 
-main{
-    height: auto;
-}
+
     body{
         background: rgb(184,81,52);
         background: linear-gradient(90deg, rgba(184,81,52,1) 0%, rgba(237,195,169,1) 100%);
@@ -27,10 +35,7 @@ main{
         text-align: center;
         border: 1px solid rgb(184,81,52);
     } 
-    footer{
-        position: relative;
-        height: auto;
-    }
+
     .footer-navbar{
         padding-left: 0;
     }
@@ -54,9 +59,6 @@ main{
 @media screen and (max-width: 505px){
     header{
         height: auto;
-    }
-    .inner-content p{
-        font-size: 10pt;
     }
     .footer-navbar{
         display: flex;
@@ -89,6 +91,15 @@ main{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .headline{
+        display: none;
+    }
+    h2{
+        font-size: 30pt;
+    }
+    main{
+        margin: 50px 0 50px 0;
     }
 
 }
