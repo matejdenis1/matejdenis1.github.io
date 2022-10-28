@@ -78,9 +78,9 @@ footer{
 .email-form form input{
     float: right;
     font-size: 12pt;
-    border: white;
     text-align: center;
     width: 200px;
+    border: white;
     height: 50px;
     background-color: white;
     border-right: 2px solid black;

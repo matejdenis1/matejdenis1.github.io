@@ -1,9 +1,6 @@
 /* Pro tablety */
 @media screen and (max-width: 770px){
     .gallery{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         width: auto;
     }
     ul li{
@@ -15,6 +12,7 @@
     } 
     footer{
         position: relative;
+        height: auto;
     }
     .footer-navbar{
         padding-left: 0;
@@ -59,6 +57,7 @@
     }
     .email-form form button{
         float: none;
+        width: auto;
     }
     #date{
         position: static;

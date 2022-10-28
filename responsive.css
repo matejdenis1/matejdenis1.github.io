@@ -1,8 +1,24 @@
 /* Pro tablety */
 @media screen and (max-width: 770px){
+
+main{
+    height: auto;
+}
     body{
         background: rgb(184,81,52);
         background: linear-gradient(90deg, rgba(184,81,52,1) 0%, rgba(237,195,169,1) 100%);
+    }
+    header{
+        background: rgb(184,81,52);
+        background: linear-gradient(90deg, rgba(184,81,52,1) 0%, rgba(237,195,169,1) 100%);
+        
+    }
+    h1{
+        text-align: center;
+        font-size: 6vw;
+    }
+    h2{
+        font-size: 5vw;
     }
     ul li{
         display: block;
@@ -13,6 +29,7 @@
     } 
     footer{
         position: relative;
+        height: auto;
     }
     .footer-navbar{
         padding-left: 0;
@@ -31,10 +48,16 @@
         right: 0;
         bottom: 15%;
     }
-
 }
+
 /* Pro mobily */
 @media screen and (max-width: 505px){
+    header{
+        height: auto;
+    }
+    .inner-content p{
+        font-size: 10pt;
+    }
     .footer-navbar{
         display: flex;
         justify-content: center;
@@ -52,6 +75,7 @@
     }
     .email-form form button{
         float: none;
+        width: auto;
     }
     #date{
         position: static;
@@ -68,5 +92,3 @@
     }
 
 }
-
-

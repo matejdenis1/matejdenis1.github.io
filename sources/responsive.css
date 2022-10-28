@@ -21,6 +21,7 @@
     } 
     footer{
         position: relative;
+        height: auto;
     }
     .footer-navbar{
         padding-left: 0;
@@ -60,6 +61,7 @@
     }
     .email-form form button{
         float: none;
+        width: auto;
     }
     #date{
         position: static;

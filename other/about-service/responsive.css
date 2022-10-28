@@ -9,6 +9,7 @@
 {
     footer{
         position: relative;
+        height: auto;
     }
 }
 @media screen and (max-width: 770px){
@@ -57,6 +58,7 @@
     }
     .email-form form button{
         float: none;
+        width: auto;
     }
     #date{
         position: static;
