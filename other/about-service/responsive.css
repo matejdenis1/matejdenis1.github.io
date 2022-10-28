@@ -1,15 +1,15 @@
 /* Pro tablety */
-@media screen and (max-width: 1450px){
-    .text{
-        display: block;
-        columns: auto;
-    }
-}
-@media screen and (max-width: 1250px)
+@media screen and (max-width: 1800px)
 {
     footer{
         position: relative;
         height: auto;
+    }
+}
+@media screen and (max-width: 1450px){
+    .text{
+        display: block;
+        columns: auto;
     }
 }
 @media screen and (max-width: 770px){
